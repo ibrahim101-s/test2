@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+        .header {
+  background-color: #494848;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  opacity: 0.9;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+.header .navbar .links {
+  display: flex;
+  list-style-type: none;
+  width: 30%;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+.header .navbar .links a {
+  color: inherit;
+  text-decoration: none;
+  padding: 10px 7px;
+}
+.header .navbar .links a:hover {
+  border-bottom: 2px solid rgb(255, 235, 55);
+}
+.header .navbar .title {
+  height: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.header .navbar .title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.header .navbar .title h2 span {
+  color: rgb(255, 231, 20);
+}
+.header .navbar .title i {
+  scale: 2;
+}
+.start{
+   background-image: url(./bg-2.jpeg); 
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.start h1{
+    display: flex;
+ width:100%;
+ justify-content: center;
+ align-items: center;
+ font-size: 50px;
+    height:400px;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+.blogs{
+    padding: 50px;
+}
+.blog{
+    display: flex;
+    background-color: rgb(123, 129, 136);
+    margin-top: 20px;
+    height: 400px;
+}
+.blog img{
+    width: 600px;
+}
+
+.blogTitle{
+   
+margin-top: 150px;
+margin-left: 30px;
+ color: white;
+}
+.blogTitle p{
+    margin:20px 0px;
+}
+button{
+    width:110px;
+            height: 33px;
+            color: white;
+            background-color:rgb(123, 129, 136) ;
+            border: 1px solid white;
+            border-radius: 4px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     height:200px;
+}
+.cent{
+    display: flex;
+    flex-direction: row !important;
+    margin-bottom: 20px;
+}
+.cent i{
+    margin: 15px;
+    scale: 2;
+    color: red;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul class="navbar">
+                <div class="title">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h2><span>Deluxe</span> Hotel</h2>
+                </div>
+                <div class="links">
+                    <li><a href="./deluxe.hotel.Ibrahim.html">Home</a></li>
+                    <li><a href="./deluxe.hotel.Ibrahim.html">About</a></li>
+                    <li><a href="./deluxe.hotel.Ibrahim.html">Rooms</a></li>
+                    <li><a href="./blogs.Ibrahim.html">Blogs</a></li>
+                    <li><a href="./deluxe.hotel.Ibrahim.html">Contact</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="main">
+         <div class="start">
+            <h1>Deluxe Hotel Blog</h1>
+         </div>
+         <div class="blogs">
+         <div class="blog">
+            <img src="./blog-1.jpeg" alt="room">
+            <div class="blogTitle">
+            <h1>Blog Title One</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate.</p>
+            <button>Read More</button>
+            </div>
+            </div>
+            <div class="blog">
+                <img src="./blog-2.jpeg" alt="room">
+                <div class="blogTitle">
+                <h1>Blog Title Two</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate.</p>
+                <button>Read More</button>
+                </div>
+                </div>
+                <div class="blog">
+                    <img src="./blog-3.jpeg" alt="room">
+                    <div class="blogTitle">
+                    <h1>Blog Title Three</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, voluptate.</p>
+                    <button>Read More</button>
+                    </div>
+                    </div>
+        </div>
+    </div>
+        <div class="footer">
+            <div class="cent">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+            <p>Copyright © 2025 - Hotel Site</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a545a1fe7f.js" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
